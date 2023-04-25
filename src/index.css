@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .b{
+    border:2px solid black;
+  }
+  header{
+    background-color: #2f302f;
+    height: 70px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .strong{
+    font-weight: bold;
+  }
+
+  .title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:20px
+  }
+  .screen{
+    min-height: 80vh;
+  }
+  .pad{
+    padding: 5vh 9vw;
+  }
+  .wh{
+    color: white;
+  }
+  .subtitle, .sec-form{
+    margin: 1vh 1vw;
+  }
+  .ta{
+    text-align: center;
+  }
+  .i-form,.ta-form,.s-form{
+    display: block;
+    padding: 10px;
+    width: 80%;
+    margin: 3vh auto;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+  }
+  .i-form, .s-form{
+    height: 30px;
+  }
+  .ta-form{
+    height: 80px;
+  }
+  .botones{
+    text-align: right;
+    padding: 4px;
+    
+  }
+  .completado{
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .strong{
+    font-weight: bold;
+  }
+  .bg-red{
+    background: red;
+  
+  }
+  .center{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .bg-green{
+    background-color: green;
+  }
+
+  .bg-black{
+    background-color: black;
+    color: white;
+  }
+  .boton{
+      color: white;
+    border-radius: 4px;
+    padding: 3px;
+    border: none; 
+    text-align: center;
+    text-decoration: none;
+    margin: 4px;
+  }
+
+
+  /* MENU  */
+
+.menu {
+  display: flex;
+  
+  background-color: #000000;
+  margin-right: 30  0px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding-right: 10px;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: greenyellow;
+
+}
+
+
+/* .login{ 
+margin-left: 520px;
+} */
+
+
+
+
+  /* FIN DEL MENU */
+
+
+  /* CARDS */
+
+  img{
+    width: 300px;
+    height: 200px;
+   
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  
+.tarjeta{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:420px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  font-family: sans-serif;
+}
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;;
+}
+.cuerpo{
+  padding: 10px;
+}
+.imagen{
+  text-align: center;
+}
+.pie{
+  background: #353535;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+ 
+/* VISTA DETALLES */
+
+
+.detalle-container{
+  width: 75%;
+}
+
+.producto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: auto;
+}
+
+.div-card-img {
+  width: 90%;
+}
+
+
+.producto-data {
+  width: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+
+.producto-data h1,
+.producto-data p,
+.producto-data p {
+  margin: 0.75vh 1.5vw;
+}
+
+.boton{
+background-color: #000000;
+color: white;
+border-radius: 4px;
+padding: 6px;
+margin-top: 50px;
+border: none; 
+text-align: center;
+text-decoration: none;
+margin: 4px;
+cursor: pointer;
+font-size: 14px;
+}
+
+.boton:hover{
+  color: greenyellow;
+}
+
+
+
+.div-boton{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.pie a:hover{
+ color: greenyellow;
+}
+
